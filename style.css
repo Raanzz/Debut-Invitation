@@ -1,0 +1,28 @@
+/* Remove default spacing */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    min-height:100vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.phone{
+    width:100%;
+    max-width:430px;   
+    background:black;
+}
+
+
+.phone img{
+    width:100%;
+    display:block;
+}
